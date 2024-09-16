@@ -1,0 +1,11 @@
+[package]
+name = "zm_vid_html_gen"
+version = "0.1.0"
+authors = ["Nestor Wheelock <nestor@nestorwheelock.com>"]
+edition = "2021"
+description = "A Rust-based tool for generating HTML pages from ZoneMinder video event CSV exports, designed to document and display lease violations."
+license = "GPLv3"
+
+[dependencies]
+csv = "1.1"
+chrono = { version = "0.4", features = ["serde"] }
